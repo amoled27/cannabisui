@@ -1,0 +1,28 @@
+# Ignore development and build files
+node_modules/
+*.log
+*.log.*
+yarn-error.log
+
+# Ignore version control files and directories
+.git/
+.gitignore
+.svn/
+
+# Ignore configuration files
+.editorconfig
+.eslintrc
+.prettierrc
+
+# Ignore test files and directories
+__tests__/
+tests/
+test/
+
+# Ignore miscellaneous files and directories
+.travis.yml
+.github/
+.vscode/
+
+
+.storybook/
